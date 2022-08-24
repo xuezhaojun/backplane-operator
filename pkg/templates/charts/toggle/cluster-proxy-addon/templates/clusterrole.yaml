@@ -33,6 +33,7 @@ rules:
       - managedproxyconfigurations
       - managedproxyconfigurations/status
       - managedproxyconfigurations/finalizers
+      - managedproxyserviceresolvers
     verbs:
       - '*'
   - apiGroups:
